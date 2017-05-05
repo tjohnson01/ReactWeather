@@ -18,8 +18,11 @@ var Main = (props) => {
   return (
     <div className="travis">
       <Nav/>
-      <h2>Main component baby!</h2>
-      {props.children}
+      <div className="row">
+        <div className="columns medium-6 large-4 small-centered">
+          {props.children}
+        </div>
+      </div>
     </div>
   );
 }
