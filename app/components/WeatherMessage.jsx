@@ -14,10 +14,10 @@ var React = require('react');
 // });
 
 var WeatherMessage = ({temp, location}) => {
-  
+
   return (
     <div>
-      <p>The weather for: {location} is {temp}</p>
+      <p className="text-center">The weather for: {location} is {temp}</p>
     </div>
   );
 }
